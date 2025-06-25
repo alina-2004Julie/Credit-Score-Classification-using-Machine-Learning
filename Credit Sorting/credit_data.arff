@@ -1,0 +1,14 @@
+@relation credit_scoring
+
+@attribute age numeric
+@attribute income numeric
+@attribute debt numeric
+@attribute paid_loans {yes,no}
+@attribute creditworthy {yes,no}
+
+@data
+25,30000,5000,yes,yes
+40,20000,10000,no,no
+35,25000,2000,yes,yes
+22,18000,7000,no,no
+45,40000,8000,yes,yes
